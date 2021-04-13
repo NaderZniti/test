@@ -1,0 +1,186 @@
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.right-content{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 15px 0px 35px 0px;
+
+}
+.info-slide .right-deco   {
+    background-image:url("right-slide-info-decor.svg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45px;
+}
+
+.info-slide .left-deco   {
+        background-image:url("left-slide-info-decor.svg") ;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 45px;
+    }
+
+.info-slide .last-add   {
+    text-align-last: center;
+    height: 45px;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+    }
+
+.left-content{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 15px 0px 35px 0px;
+} 
+
+.left-content-bottom{
+    margin-right: 0px;
+    margin-top: 40px;
+    padding: 15px 0px 35px 0px;
+    height: 500px;
+} 
+
+.left-content .text-cadre{
+    border-bottom: 1px solid black;
+}
+
+.left-content .text-cadre p{
+    font-size: 19px;
+    margin: 15px 10px 10px;
+}
+
+.navbar .navbar-brand {
+    height: 72px;
+    padding: 0px;
+}
+
+.navbar {
+    padding: 5px;
+}
+
+.navbar-transparent{
+    padding: 5px !important;
+}
+
+.printiz-color{
+    color: #fe9900 !important;
+}
+
+.printiz-color-background{
+
+    background-color: #ff9800 !important;
+}
+.printiz-color:hover{
+    color: #fecc7f !important;
+}
+
+.printiz-color-background:hover{
+
+    background-color: #fecc7f !important;
+}
+
+.navbar {
+    background-color: rgb(0 0 0 / 87%) !important;
+}
+
+.footer-container{
+    /* height : 250px; */
+    background-color: #000;
+    margin-top: 30px;
+    background-image:url("footer-background.svg") ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+
+}
+.image-logo-printiz{
+    width: 200px;
+}
+
+.card-perso{
+    padding: 14px 4px 0px 4px !important;
+    height: 200px;
+  }
+
+  .card-perso .row{
+    justify-content: center;
+    text-align: center;
+
+  }
+  
+  .card-perso .row .name{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+
+    .card-perso .row .price{
+        border-bottom: 1px solid grey;
+        margin-bottom: 11px;
+        }
+
+@media  (max-width: 767px) {
+    .left-content .display-inline{
+
+        display: flex;
+        overflow-x: scroll;
+        border: none;
+    }
+    
+    .left-content .text-cadre{
+        border-bottom: unset;
+        white-space: nowrap;
+    }
+
+    .right-content{
+        margin: 30px 0px 0px;
+        padding: 0px ;
+    
+    }
+
+    .left-content {
+        margin: -15px 30px 0px;
+        padding: 0px;
+    }
+
+    .image-logo-printiz{
+        width: 150px;
+    }
+
+  }
+  
+  @media  (max-width: 420px) {
+
+    .info-slide .right-deco   {
+        display: none;
+    }
+    .info-slide .last-add   {
+        
+        font-size: 15px;
+        }
+  }
+
+  
+
+  @media  (max-width: 374px) {
+
+    .image-logo-printiz{
+        width: 100px;
+    }
+
+    .left-content{
+        margin-top: 10px  !important;
+    }
+
+    .right-content{
+        margin-top: 10px  !important;
+    }
+
+    .left-content-bottom{
+        margin-top: 10px  !important;
+    }
+    
+  }
